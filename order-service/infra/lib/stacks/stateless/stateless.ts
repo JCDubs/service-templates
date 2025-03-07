@@ -116,7 +116,7 @@ export class StatelessStack extends cdk.Stack {
       },
       bundling: {
         minify: true,
-        externalModules: ['@aws-sdk/*', '@cedar-policy/cedar-wasm/nodejs'],
+        externalModules: ['@aws-sdk/*'],
       },
     });
   }
